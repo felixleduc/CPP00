@@ -8,11 +8,14 @@
 class PhoneBook {
   private:
     int     index;
+    int     stop_index;
     Contact contact[max_contacts];
   public:
     PhoneBook();
-    void    add_contact();
-    void    search_contact();
+    ~PhoneBook();
+    void        add_contact(void);
+    void        search_contact(void);
+    std::string data_size(std::string val);
 };
 
 #endif
