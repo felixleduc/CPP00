@@ -1,9 +1,9 @@
 #ifndef PHONEBOOK_HPP
 # define PHONEBOOK_HPP
 
-# define max_contacts 8
-
 # include "Contact.hpp"
+
+# define max_contacts 8
 
 class PhoneBook {
   private:
